@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EFEFEF">
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên xe"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtNamSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm sản xuất"
+        android:inputType="number"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hãng xe"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="numberDecimal"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/edtAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL ảnh"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm xe"
+        android:textSize="18sp"
+        android:background="#00796B"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
